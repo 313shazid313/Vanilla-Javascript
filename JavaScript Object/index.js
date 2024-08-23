@@ -1,5 +1,6 @@
 //! usage of object in javascript ------------------------------>>
 // this = reference of a object where THIS is used
+
 // example 1
 const myDetails = {
   firstName: "Shazid",
@@ -10,6 +11,7 @@ const myDetails = {
     console.log("Failing is OK");
   },
 };
+
 myDetails.quote(); //Failing is OK
 console.log(myDetails.firstName); // Shazid
 console.log(myDetails.lastNmae); //Hossain
@@ -25,7 +27,7 @@ const anotherDetails = {
   isEmployed: true,
   quote: function () {
     console.log(
-      "The knife is in your aorta. You pull it out, you will bleed and you will die. Consider this a professional courtesy."
+      "The knife is in your aorta. You pull it out, you will bleed and you will die."
     );
   },
 };
@@ -51,6 +53,7 @@ const personDetails = {
     console.log(`${this.name} is eating ${this.favFood}`); //tom catis eating fish
   },
 };
+
 personDetails.sayHello();
 personDetails.eat();
 
@@ -74,6 +77,21 @@ function car(make, model, year, color) {
 const car1 = new car("audi", "000", 2000, "black");
 const car2 = new car("ford", "001", 2001, "blue");
 
+//! array of objects ------------------------------------------>
+const topG = [
+  {
+    id: 123,
+    name: "shazid",
+    email: "hossainshazid567@gmail.com",
+  },
+  {
+    id: 125,
+    name: "Sifat",
+    email: "sifat@gmail.com",
+  },
+];
+console.log(topG);
+
 console.log(car1); //car {make: 'audi', model: '000', year: '2000', color: 'black'}
 console.log(car1.make); // audi
 console.log(car1.model); // 000
@@ -89,7 +107,3 @@ console.log(car2.color); // blue
 //using the function in the constructor
 car1.drive(); // i am driving the audi
 car2.drive(); // i am driving the ford
-
-
-
-

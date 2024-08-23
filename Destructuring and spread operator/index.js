@@ -9,7 +9,7 @@ console.log(a); //32
 console.log(b); //36
 console.log(a, b, c); //32 36 43
 
-//spread operator
+//! spread operator
 let arr2 = [12, 24, 11, 53, 54, 98, 55, 88];
 // example-1
 let [p, q, r, ...rest] = arr2; //rest is spread operator variable
@@ -44,3 +44,65 @@ let obj9 = {
 };
 console.log({ ...obj9, name: "wick" }); //name wick override korbe
 console.log({ name: "wick", ...obj9 }); //obj9 pore likhle override hobe na //kono value change hobe na
+
+const x = 20;
+console.log(x);
+
+//! Object Destructuring example 1
+const person = {
+  name1: "Alice",
+  ageNum: 25,
+  city: "New York",
+};
+
+const { name1, ageNum } = person;
+
+console.log(name1); // "Alice"
+console.log(ageNum); // 25
+
+//! object Destructuring example 2
+const person1 = {
+  name2: "Alice",
+  age2: 25,
+  city2: "New York",
+};
+
+// Destructuring with renaming
+const { name2: firstName, age2: yearsOld } = person1;
+
+console.log(firstName); // "Alice"
+console.log(yearsOld); // 25
+
+//! nested destructuring
+const person3 = {
+  name3: "Alice",
+  address: {
+    city: "New York",
+    zip: "10001",
+  },
+};
+
+const {
+  name3,
+  address: { city, zip },
+} = person3;
+
+console.log(name3); // "Alice"
+console.log(city); // "New York"
+console.log(zip); // "10001"
+
+//! Destructuring Function Parameters example 1
+
+function printColors([first, second]) {
+  console.log(`First Color: ${first}, Second Color: ${second}`);
+}
+const colors = ["red", "green"];
+printColors(colors); // "First Color: red, Second Color: green"
+
+//! Destructuring Function Parameters example 2
+function printPerson({ name, age }) {
+  console.log(`Name: ${name}, Age: ${age}`);
+}
+
+const person99 = { name: "Alice", age: 25 };
+printPerson(person99); // "Name: Alice, Age: 25"
