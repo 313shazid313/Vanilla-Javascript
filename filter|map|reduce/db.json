@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Ocean",
+    "author": "Lara Quinn",
+    "genre": "Adventure",
+    "publishedYear": 2015,
+    "rating": 4.2,
+    "pages": 310
+  },
+  {
+    "id": 2,
+    "title": "Coded Reality",
+    "author": "Miles Carter",
+    "genre": "Sci-Fi",
+    "publishedYear": 2020,
+    "rating": 4.6,
+    "pages": 410
+  },
+  {
+    "id": 3,
+    "title": "Whispers in the Fog",
+    "author": "Clara Voss",
+    "genre": "Mystery",
+    "publishedYear": 2012,
+    "rating": 3.9,
+    "pages": 275
+  },
+  {
+    "id": 4,
+    "title": "Mathematics of Love",
+    "author": "Pauline Tate",
+    "genre": "Romance",
+    "publishedYear": 2018,
+    "rating": 4.1,
+    "pages": 322
+  },
+  {
+    "id": 5,
+    "title": "Digital Pharaoh",
+    "author": "A.J. Monroe",
+    "genre": "Historical Fiction",
+    "publishedYear": 2016,
+    "rating": 4.3,
+    "pages": 380
+  },
+  {
+    "id": 6,
+    "title": "Neon Jungle",
+    "author": "Lex Hart",
+    "genre": "Thriller",
+    "publishedYear": 2019,
+    "rating": 4.5,
+    "pages": 290
+  },
+  {
+    "id": 7,
+    "title": "The Last Algorithm",
+    "author": "Sandy Zhou",
+    "genre": "Techno-thriller",
+    "publishedYear": 2021,
+    "rating": 4.7,
+    "pages": 365
+  },
+  {
+    "id": 8,
+    "title": "Tales of Ember",
+    "author": "Ron Dahl",
+    "genre": "Fantasy",
+    "publishedYear": 2010,
+    "rating": 3.8,
+    "pages": 400
+  },
+  {
+    "id": 9,
+    "title": "Crimson Harvest",
+    "author": "Helen Gray",
+    "genre": "Horror",
+    "publishedYear": 2013,
+    "rating": 3.6,
+    "pages": 198
+  },
+  {
+    "id": 10,
+    "title": "Zero to Quantum",
+    "author": "Nico Bell",
+    "genre": "Non-Fiction",
+    "publishedYear": 2022,
+    "rating": 4.9,
+    "pages": 450
+  },
+  {
+    "id": 11,
+    "title": "Beneath the Stars",
+    "author": "Eva Martin",
+    "genre": "Romance",
+    "publishedYear": 2017,
+    "rating": 4.0,
+    "pages": 310
+  },
+  {
+    "id": 12,
+    "title": "City of Iron",
+    "author": "Derek Wolfe",
+    "genre": "Fantasy",
+    "publishedYear": 2014,
+    "rating": 4.4,
+    "pages": 370
+  },
+  {
+    "id": 13,
+    "title": "Hacktivist Dreams",
+    "author": "Rina Patel",
+    "genre": "Techno-thriller",
+    "publishedYear": 2020,
+    "rating": 4.1,
+    "pages": 340
+  },
+  {
+    "id": 14,
+    "title": "The Mind's Cartographer",
+    "author": "Isaac Knowles",
+    "genre": "Sci-Fi",
+    "publishedYear": 2016,
+    "rating": 4.5,
+    "pages": 295
+  },
+  {
+    "id": 15,
+    "title": "Dawn of Shadows",
+    "author": "Luna Ash",
+    "genre": "Fantasy",
+    "publishedYear": 2011,
+    "rating": 3.7,
+    "pages": 315
+  },
+  {
+    "id": 16,
+    "title": "Parallel Echoes",
+    "author": "Jamie Lin",
+    "genre": "Sci-Fi",
+    "publishedYear": 2018,
+    "rating": 4.3,
+    "pages": 330
+  },
+  {
+    "id": 17,
+    "title": "The Forgotten Cipher",
+    "author": "Omar Reyes",
+    "genre": "Mystery",
+    "publishedYear": 2013,
+    "rating": 3.9,
+    "pages": 280
+  },
+  {
+    "id": 18,
+    "title": "Roots of Tomorrow",
+    "author": "Leila Khan",
+    "genre": "Non-Fiction",
+    "publishedYear": 2021,
+    "rating": 4.8,
+    "pages": 390
+  },
+  {
+    "id": 19,
+    "title": "Flames and Frost",
+    "author": "Nina Brooks",
+    "genre": "Fantasy",
+    "publishedYear": 2019,
+    "rating": 4.2,
+    "pages": 360
+  },
+  {
+    "id": 20,
+    "title": "Echoes of Eden",
+    "author": "Tobias Lane",
+    "genre": "Adventure",
+    "publishedYear": 2015,
+    "rating": 4.0,
+    "pages": 305
+  }
+]
